@@ -1,0 +1,186 @@
+* {margin:0; padding:0;}
+li{list-style: none}
+em{font-style: normal;
+    font-weight:normal;}
+a{color:#000;text-decoration:none}
+body,html{
+    width:100%;
+    height:100%;
+    background-color: #f5f5f5;}
+.header{
+    width:100%;
+    height:115px;
+    background: #fff;
+    border-bottom:1px solid #eee;
+}
+.header .headerF{
+    width:100%;
+    height:70px;
+    border-bottom:1px solid #eee;
+}
+.header .headerF .headerFCon{
+    width:1380px;
+    height:52px;
+    margin:0 auto;
+}
+.header  .headerF .headerFCon .logo{
+    float: left;
+    margin-top:20px;
+    width:130px;
+    height:30px;
+}
+.header  .headerF .headerFCon .select{
+    float: left;
+    width:532px;
+    height:30px;
+    border: 2px solid #3af;
+    margin: 17px 0 0 234px;
+}
+.header  .headerF .headerFCon .select .txt{
+    padding:6px;
+    width:436px;
+    float: left;
+}
+.header  .headerF .headerFCon .select .select-a{
+    float: left;
+    display: block;
+    width:80px;
+    height:30px;
+    background: #3af;
+    text-align: center;
+    line-height:30px;
+    color: #fff;
+    text-decoration: none;
+}
+.header .headerM{
+    height:44px;
+}
+.header .headerM .headerMCon{
+    margin:0 auto;
+    width:1380px;
+    height:44px;
+}
+.header .headerM .headerMCon .headerMCon-l{
+    float: left;
+    width:480px;
+    height:44px;
+}
+.header .headerM .headerMCon .headerMCon-l .headerMCon-l-f{
+    color: #3af;
+}
+.header .headerM .headerMCon .headerMCon-l a{
+    color: #000;
+    font-size:16px;
+    text-decoration: none;
+    line-height: 44px;
+    margin-right:30px;
+}
+.header .headerM .headerMCon .headerMCon-r{
+    float: right;
+    width:244px;
+    height:44px;
+}
+.header .headerM .headerMCon .headerMCon-r a{
+    color: #000;
+    font-size:14px;
+    text-decoration: none;
+    line-height: 44px;
+    margin-left:15px;
+}
+.header .headerM .headerMCon a:hover{
+    color:#3af;
+}
+/* 热播动漫   内容*/
+.con{
+    width:1380px;
+    height:2300px;
+    margin:0 auto;}
+.con ul>li{
+    float: left;
+    width:190px;
+    height:310px;
+    padding: 20px 48px 0 0;
+}
+.con ul>li .PICd{
+    position: relative;
+    width:190px;
+    height:264px;
+}
+.con ul>li .PICd .UpNum{
+    position: absolute;
+    right:0;
+    bottom:0;
+    display: block;
+    width:80px;
+    height:20px;
+    line-height:20px;
+    text-align: center;
+    background: rgba(0,0,0,.2);
+    color: #fff;
+    font-size:12px;
+}
+
+.con ul>li .PICd .PICd-zhZao{
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+    z-index:10;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,.2) url("../images/v_playBtn.png") 50% 50% no-repeat;
+}
+.con ul>li .PICd:hover .PICd-zhZao{
+    display: block;
+}
+.con ul>li .PICd-title{
+    width:190px;
+    height:53px;
+}
+.con ul>li .PICd-title .PICd-title-T{
+    display: block;
+    width:160px;
+    padding:8px 0 ;
+    height:30px;
+    line-height:30px;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size:16px;
+    color: #999;
+}
+.con ul>li .PICd-title .PICd-title-T:hover{
+    color: rgb(255,0,0);
+}
+.con ul>li:nth-of-type(6),
+.con ul>li:nth-of-type(12),
+.con ul>li:nth-of-type(18),
+.con ul>li:nth-of-type(24),
+.con ul>li:nth-of-type(30),
+.con ul>li:nth-of-type(36),
+.con ul>li:nth-of-type(42){
+    margin-right:0;
+    padding-right:0;
+}
+
+/*页尾*/
+.footer{
+    margin-top:60px;
+    width:100%;
+    height:130px;
+    border-top:1px solid #999;
+}
+.footer .footer-con{
+    padding:30px 0;
+    width:1380px;
+    height:70px;
+    margin:0 auto;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+.footer .footer-con a{
+    color: #3af;
+    text-decoration: none;
+}
